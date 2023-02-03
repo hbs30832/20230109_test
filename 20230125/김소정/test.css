@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  background-color: #dddddd;
+}
+
+h1 {
+  position: absolute;
+  height: 29px;
+  line-height: 29px;
+  top: 16px;
+  left: 17px;
+  bottom: 15px;
+  font-size: 24px;
+}
+
+.BtnList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.BtnList li a {
+  display: block;
+
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+
+  background-color: #454545;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+main {
+  width: 100%;
+  height: 480px;
+  top: 60px;
+  background-color: #bbbbbb;
+}
+
+.slider {
+  width: 100%;
+  height: 480px;
+
+  top: 60px;
+
+  background-color: #bbbbbb;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: -0.5px;
+  font-size: 24px;
+  position: relative;
+}
+
+main .slider .SliderBtnList {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main .slider .SliderBtnList li {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  margin: 5px;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 50px 10px;
+  background-color: #cccccc;
+}
+
+.imgList .img {
+  display: flex;
+  justify-content: center;
+}
+
+.imgList .img li {
+  background-color: #ffffff;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imgList .img li a {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgList .img li a img {
+  width: 100%;
+}
+
+.imgList .img li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgList .img li a:hover {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+.imgList .img li + li {
+  margin-left: 20px;
+}
+
+.Assets {
+  margin-top: 324px;
+  padding: 45px 46px;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+.Assets .NavBox {
+  width: 290px;
+  height: 100px;
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+}
+
+.NavBox li {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+.NavBox li:nth-of-type(1) {
+  background-color: #454545;
+}
+
+.NavBox li:nth-of-type(2) {
+  background-color: #ffffff;
+}
